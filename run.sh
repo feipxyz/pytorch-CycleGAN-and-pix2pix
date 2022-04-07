@@ -7,3 +7,6 @@ cd -
 # 训练
 python train.py --dataroot ./datasets/APDrawingDB/data --name apdrawing_pix2pix --model pix2pix --direction AtoB
 
+# 测试
+python test.py --dataroot ./datasets/APDrawingDB/data --name apdrawing_pix2pix --model pix2pix --direction Ato
+
